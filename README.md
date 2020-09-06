@@ -18,4 +18,9 @@ While in this branch....
 - Run and see that the program works, but again no changes to the user interface.
 - COMMIT with appropriate comment.
 
+- Delete "TestPage1" and Create both "Demo Page" and "Work Page" WebForms.
+- Add the appropriate Menu items to access these WebForms.
+- Run and see that the program works.
+- COMMIT with appropriate comment.
+
 - Create and checkout a new branch from this one and call it "b3-ODS-DDL-of-Artists-to-CGV-of-AlbumsByArtist".
