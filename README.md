@@ -12,7 +12,7 @@ Project Setup
 - Click on Publish to GitHub, pick your user name and then click "Publish", with the default name.
 - Notice that this name will become the name of the new repo in gitHub, thus v2, v3 etc. No two repos can have the same name.
 - In Visual Studio click the "master" branch in the lower right corner, and create a new branch.
-- Call the branch "b1-Project-Setup. The branch is automatically "checked out", so you are now working in the new branch, not the master.
+- Call the branch "b1-Basic-WebForm-Setup. The branch is automatically "checked out", so you are now working in the new branch, not the master.
 
 - Now double click the properties under the WebApp Project.
 - On the left click "Web" and change Project Url to get rid of the "S" and increment the host by 1.
@@ -37,4 +37,4 @@ Project Setup
 - Run and see that the program works.
 - COMMIT with appropriate comment.
 
-- Create a new branch from this one and call it "b2-Basic-Server-Setup".
+- Create a new branch from this one and call it "b2-Basic-DataBaseSystem-Setup".
