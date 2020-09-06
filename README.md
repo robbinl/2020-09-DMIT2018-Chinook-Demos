@@ -1,5 +1,4 @@
-# 2020-09-DMIT2018-Chinook-Demos
-Project Setup
+# Basic-WebForm-Setup
 - Open Visual Studio, New Project
 - Filter C#, Windows, Web
 - ASP.NET Web Application (.NET FrameWork), click next
