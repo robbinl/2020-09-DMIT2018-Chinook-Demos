@@ -186,7 +186,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
-    <Content Include="SamplePages\TestPage1.aspx" />
+    <Content Include="SamplePages\DemoPage.aspx" />
+    <Content Include="SamplePages\WorkPage.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -460,12 +461,19 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SamplePages\TestPage1.aspx.cs">
-      <DependentUpon>TestPage1.aspx</DependentUpon>
+    <Compile Include="SamplePages\DemoPage.aspx.cs">
+      <DependentUpon>DemoPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SamplePages\TestPage1.aspx.designer.cs">
-      <DependentUpon>TestPage1.aspx</DependentUpon>
+    <Compile Include="SamplePages\DemoPage.aspx.designer.cs">
+      <DependentUpon>DemoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\WorkPage.aspx.cs">
+      <DependentUpon>WorkPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\WorkPage.aspx.designer.cs">
+      <DependentUpon>WorkPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
