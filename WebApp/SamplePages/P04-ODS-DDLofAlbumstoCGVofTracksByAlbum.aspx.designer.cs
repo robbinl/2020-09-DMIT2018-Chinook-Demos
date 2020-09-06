@@ -11,7 +11,7 @@ namespace WebApp.SamplePages
 {
 
 
-    public partial class DemoPage
+    public partial class P04_ODS_DDLofAlbumstoCGVofTracksByAlbum
     {
     }
 }

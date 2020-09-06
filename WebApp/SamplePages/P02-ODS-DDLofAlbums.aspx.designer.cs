@@ -11,7 +11,7 @@ namespace WebApp.SamplePages
 {
 
 
-    public partial class WorkPage
+    public partial class P02_ODS_DDLofAlbums
     {
     }
 }

@@ -186,8 +186,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
-    <Content Include="SamplePages\DemoPage.aspx" />
-    <Content Include="SamplePages\WorkPage.aspx" />
+    <Content Include="SamplePages\P01-ODS-DDLofArtists.aspx" />
+    <Content Include="SamplePages\P02-ODS-DDLofAlbums.aspx" />
+    <Content Include="SamplePages\P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx" />
+    <Content Include="SamplePages\P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx" />
+    <Content Include="SamplePages\P05-ODS-PartialSearchofArtiststoCGV.aspx" />
+    <Content Include="SamplePages\P06-ODS-PartialSearchofAlbumstoCGV.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -461,19 +465,47 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SamplePages\DemoPage.aspx.cs">
-      <DependentUpon>DemoPage.aspx</DependentUpon>
+    <Compile Include="SamplePages\P01-ODS-DDLofArtists.aspx.cs">
+      <DependentUpon>P01-ODS-DDLofArtists.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SamplePages\DemoPage.aspx.designer.cs">
-      <DependentUpon>DemoPage.aspx</DependentUpon>
+    <Compile Include="SamplePages\P01-ODS-DDLofArtists.aspx.designer.cs">
+      <DependentUpon>P01-ODS-DDLofArtists.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\WorkPage.aspx.cs">
-      <DependentUpon>WorkPage.aspx</DependentUpon>
+    <Compile Include="SamplePages\P02-ODS-DDLofAlbums.aspx.cs">
+      <DependentUpon>P02-ODS-DDLofAlbums.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SamplePages\WorkPage.aspx.designer.cs">
-      <DependentUpon>WorkPage.aspx</DependentUpon>
+    <Compile Include="SamplePages\P02-ODS-DDLofAlbums.aspx.designer.cs">
+      <DependentUpon>P02-ODS-DDLofAlbums.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx.cs">
+      <DependentUpon>P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx.designer.cs">
+      <DependentUpon>P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx.cs">
+      <DependentUpon>P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx.designer.cs">
+      <DependentUpon>P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P05-ODS-PartialSearchofArtiststoCGV.aspx.cs">
+      <DependentUpon>P05-ODS-PartialSearchofArtiststoCGV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P05-ODS-PartialSearchofArtiststoCGV.aspx.designer.cs">
+      <DependentUpon>P05-ODS-PartialSearchofArtiststoCGV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\P06-ODS-PartialSearchofAlbumstoCGV.aspx.cs">
+      <DependentUpon>P06-ODS-PartialSearchofAlbumstoCGV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\P06-ODS-PartialSearchofAlbumstoCGV.aspx.designer.cs">
+      <DependentUpon>P06-ODS-PartialSearchofAlbumstoCGV.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

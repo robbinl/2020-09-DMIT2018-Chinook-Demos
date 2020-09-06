@@ -20,13 +20,13 @@ While in this branch....
 
 - Delete "TestPage1" and create new WebForms as follows in the WebApp Project
 - P01-ODS-DDLofArtists.aspx
-- P02-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx
-- P03-ODS-DDLofAlbums.aspx
+- P02-ODS-DDLofAlbums.aspx
+- P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx
 - P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx
 - P05-ODS-PartialSearchofArtiststoCGV.aspx
 - P06-ODS-PartialSearchofAlbumstoCGV.aspx
 - Add the appropriate Menu items to access these WebForms.
-- Run and see that the program works.
+- Run and see that the program works, and each menu item comes up.
 - COMMIT with appropriate comment.
 
 - Create and checkout a new branch from this one and call it "b3-ODS-Artists-Albums-Tracks".

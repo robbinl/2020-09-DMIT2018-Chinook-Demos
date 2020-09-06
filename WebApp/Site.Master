@@ -63,16 +63,34 @@
                                 Samples</a>
                             <div class="dropdown-menu" aria-labelledby="navbarSubMenu">
                                 <a class="dropdown-item"
-                                        href="~/SamplePages/DemoPage.aspx"
+                                        href="~/SamplePages/P01-ODS-DDLofArtists.aspx"
                                         style="color:black" runat="server">
-                                   Demo Page
-
+                                   P01 ODS DLL of Artists
                                 </a>
                                 <a class="dropdown-item"
-                                        href="~/SamplePages/WorkPage.aspx"
+                                        href="~/SamplePages/P02-ODS-DDLofAlbums.aspx"
                                         style="color:black" runat="server">
-                                   Work Page
-
+                                   P02 ODS DLL of Albums
+                                </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P03-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx"
+                                        style="color:black" runat="server">
+                                   P03 ODS DLL of Artists to CGV of AlbumsByArtist
+                                </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P04-ODS-DDLofAlbumstoCGVofTracksByAlbum.aspx"
+                                        style="color:black" runat="server">
+                                   P04 ODS DLL of Albums to CGV of TracksByAlbum
+                                </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P05-ODS-PartialSearchofArtiststoCGV.aspx"
+                                        style="color:black" runat="server">
+                                   P05 ODS Partial Search of Artists to CGV
+                                </a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/P06-ODS-PartialSearchofAlbumstoCGV.aspx"
+                                        style="color:black" runat="server">
+                                   P06 ODS Partial Search of Albums to CGV
                                 </a>
                             </div>
                          </li>

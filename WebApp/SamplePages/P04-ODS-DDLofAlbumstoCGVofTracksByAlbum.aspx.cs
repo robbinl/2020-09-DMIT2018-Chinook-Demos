@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApp.SamplePages
 {
-    public partial class WorkPage : System.Web.UI.Page
+    public partial class P04_ODS_DDLofAlbumstoCGVofTracksByAlbum : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
