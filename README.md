@@ -23,4 +23,4 @@ While in this branch....
 - Run and see that the program works.
 - COMMIT with appropriate comment.
 
-- Create and checkout a new branch from this one and call it "b3-ODS-DDL-of-Artists-to-CGV-of-AlbumsByArtist".
+- Create and checkout a new branch from this one and call it "b3-ODS-DDLofArtiststoCGVofAlbumsByArtist".
