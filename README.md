@@ -6,10 +6,10 @@ While in this branch....
 - Project Name "ChinookSystem", click create.
 - Delete the Class1.cs file.
 - Within ChinookSystem add four folders with coresponding .cs files inside each, 
--- "ENTITIES" folder with "EArtist.cs" file, 
--- "DAL" folder with "ChinookContext.cs" file, 
--- "BLL" folder with "ArtistController.cs" file,
--- "VIEWMODELS folder with VArtist.cs" file.
+- "ENTITIES" folder with "EArtist.cs" file, 
+- "DAL" folder with "ChinookContext.cs" file, 
+- "BLL" folder with "ArtistController.cs" file,
+- "VIEWMODELS folder with VArtist.cs" file.
 - Add a reference from the WebApp Project so it can see the ChinookSystem Project.
 - Run and see that the program works, but does nothing different than previous.
 - COMMIT with appropriate comment.
