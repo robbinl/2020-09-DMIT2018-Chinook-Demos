@@ -35,6 +35,6 @@ Project Setup
 - In the file add an h1 element to say "Hey Man", in the contents.
 - The Menu item in Site.Master has already been added when you copied and pasted the new menu.
 - Run and see that the program works.
-- COMMIT with appropriate comment.
+- COMMIT with appropriate comment
 
 - Create a new branch from this one and call it "b2-Basic-DataBaseSystem-Setup".
