@@ -3,7 +3,7 @@ Project Setup
 - Open Visual Studio, New Project
 - Filter C#, Windows, Web
 - ASP.NET Web Application (.NET FrameWork), click next
-- Project Mane "WebApp"
+- Project Name "WebApp"
 - Solution Name "2020-09-DMIT2018-Chinook-MyWork, click next
 - Change Authentication to Individual User Accounts, create
 - Debug without debugging to see that it runs as is, but does nothing.
