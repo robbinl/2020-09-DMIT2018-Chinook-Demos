@@ -19,7 +19,11 @@ Project Setup
 - In Visual Studio click "View" then "Properties" and pin down.
 - Click on the WebApp Project and change SSL Enabled to False.
 - COMMIT with appropriate comment.
+
 - In Visual Studio right click on WebApp Project and then "Manage NuGet Packages".
-- Upgrade all packages to latest version, including Bootstrap 4.
+- Upgrade all packages to latest version.
+- Click Restart when yellow banner appears.
+- Run the program and see that it breaks because of Bootstrap4.
+- COMMIT with appropriate comment. Notice there are 99+ changes.
 
 - MERGE to master.
