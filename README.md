@@ -18,7 +18,7 @@ While in this branch....
 - Run and see that the program works, but again no changes to the user interface.
 - COMMIT with appropriate comment.
 
-- Delete "TestPage1" and Create both create new WebForms as follows in the WebApp Project
+- Delete "TestPage1" and create new WebForms as follows in the WebApp Project
 - P01-ODS-DDLofArtists.aspx
 - P02-ODS-DDLofArtiststoCGVofAlbumsByArtist.aspx
 - P03-ODS-DDLofAlbums.aspx

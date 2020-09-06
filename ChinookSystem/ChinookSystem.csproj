@@ -41,13 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\AlbumController.cs" />
     <Compile Include="BLL\ArtistController.cs" />
+    <Compile Include="BLL\TrackController.cs" />
     <Compile Include="DAL\ChinookContext.cs" />
+    <Compile Include="ENTITIES\EAlbum.cs" />
+    <Compile Include="ENTITIES\EArtist.cs" />
+    <Compile Include="ENTITIES\ETrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VIEWMODELS\VAlbum.cs" />
     <Compile Include="VIEWMODELS\VArtist.cs" />
+    <Compile Include="VIEWMODELS\VTrack.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ENTITIES\EArtist\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
