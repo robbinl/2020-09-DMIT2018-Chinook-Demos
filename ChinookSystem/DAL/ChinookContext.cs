@@ -4,9 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Additional Namespaces
+using System.Data.Entity;
+using ChinookSystem.ENTITIES;
+
 namespace ChinookSystem.DAL
 {
-    class ChinookContext
+    internal class ChinookContext : DbContext
     {
+        public ChinookContext() : base("name=ChinookDB")
+        {
+
+        }
+
+        public DbSet<EArtist> Artists { get; set; }
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChinookSystem.VIEWMODELS
 {
-    class VArtist
+    public class VArtist
     {
+        public int VArtistId { get; set; }
+        public string VName { get; set; }
     }
 }
