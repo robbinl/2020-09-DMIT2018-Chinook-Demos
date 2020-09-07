@@ -36,4 +36,4 @@
 - Run and see that the program works.
 - COMMIT with appropriate comment
 
-- Create a new branch from this one and call it "b2-Basic-DataBaseSystem-Setup".
+- Create a new branch from this one and call it "b2-DBSystem-Project-Setup".
