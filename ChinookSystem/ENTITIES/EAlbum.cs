@@ -41,6 +41,6 @@ namespace ChinookSystem.ENTITIES
 
         //navigational properties
         public virtual EArtist Artist { get; set; }
-        //public virtual ICollection<Track> Tracks { get; set; }
+        public virtual ICollection<ETrack> Tracks { get; set; }
     }
 }

@@ -14,10 +14,9 @@ namespace ChinookSystem.DAL
     {
         public ChinookContext() : base("name=ChinookDB")
         {
-
         }
-
         public DbSet<EArtist> Artists { get; set; }
         public DbSet<EAlbum> Albums { get; set; }
+        public DbSet<ETrack> Tracks { get; set; }
     }
 }
