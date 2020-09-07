@@ -14,7 +14,7 @@ namespace ChinookSystem.ENTITIES
 
     //Using internal to add another layer of security to our code
     //This internal will restrict access to this class to within
-    //  the SystemDB project
+    //  the DataBase System project
     //Because of this we now need VIEWS
     internal class EArtist
     {
@@ -38,6 +38,6 @@ namespace ChinookSystem.ENTITIES
         //part of a relationship to table Albums
         //it is the parent part of the relationship
         //this means that an artist has MANY albums *****
-        //public virtual ICollection<EAlbum> Albums { get; set; }
+        public virtual ICollection<EAlbum> Albums { get; set; }
     }
 }

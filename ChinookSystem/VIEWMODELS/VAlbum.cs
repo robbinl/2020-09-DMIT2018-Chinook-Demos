@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChinookSystem.VIEWMODELS
 {
-    class VAlbum
+    public class VAlbum
     {
+        public int AlbumId { get; set; }
+        public string Title { get; set; }
+        public int ArtistId { get; set; }
+        public int ReleaseYear { get; set; }
+        public string ReleaseLabel { get; set; }
     }
 }
