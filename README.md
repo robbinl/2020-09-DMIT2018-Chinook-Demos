@@ -29,4 +29,4 @@ While in this branch....
 - Run and see that the program works, and each menu item comes up.
 - COMMIT with appropriate comment.
 
-- Create and checkout a new branch from this one and call it "b3-ODS-Artists-Albums-Tracks".
+- Create and checkout a new branch from this one and call it "b3-Entities-Context-ViewModel-Setup".
